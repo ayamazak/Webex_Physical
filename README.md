@@ -22,7 +22,7 @@ We are proposing Hybrid digital event solution using Cisco Products and API, for
 
     – Virtual participants can know what is going on in the physical event or corporate exhibition (participant information, local video, questions, etc.) before attending the Webex Meeting (Standing to watch, eavesdropper and anonymity
 
-    – Virtual participants can ask questions and other questions in anonymity before joining Webex Meetings. (Utilizing slido)
+    – Virtual participants can ask questions and other questions in anonymity before joining Webex Meetings. (Utilizing Slido)
 
     – If you want to have a more in-depth conversation, you can seamlessly join a Webex conference and interact with the physical participants
 
