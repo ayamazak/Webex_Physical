@@ -14,7 +14,7 @@ We are proposing Hybrid digital event solution using Cisco Products and API, for
 
     1. Since the event is expected to attract visitors to the physical corporate exhibit, the number of corporate exhibitors will increase, resulting in an increase in event revenue
 
-    1. Incorporating images felt in the physical venue into the virtual venue（ Be primarily a physical venue, not a virtual one. ）
+    1. Incorporating images felt in the physical venue into the virtual venue（Be primarily a physical venue, not a virtual one.）
 
     1. Virtual attendees can also interact with the company as they would at a physical event.
 
@@ -56,13 +56,13 @@ We are proposing Hybrid digital event solution using Cisco Products and API, for
 
     Create a virtual event web page for online participants. The corporate booths and seminar rooms displayed on the web page are linked to the actual booths and seminar rooms. When an online participant hovers over a booth or seminar room on a web page, the following information is displayed so that the physical condition of the booth or seminar room can be grasped while maintaining anonymity.
 
-        Real-time camera snapshots of physical booths and seminar rooms (Meraki snapshot MPI)
+        Real-time camera streamings of physical booths and seminar rooms (Meraki External RTSP)
 
-        Number of Physical Participants in Physical Booths and Seminar Rooms (Meraki MV Sense API)
+        The Number of Physical Participants in Physical Booths and Seminar Rooms (Meraki MV Sense API)
 
-        Online Participant Attributes (Webex Meeting API)
+        Online Participant Attributes (Webex xAPI)
 
-        A link to keep anonymity and feel free to ask questions (slido)
+        A link to keep anonymity and feel free to ask questions (Slido)
 
         Link to log in to a dedicated Webex meeting for more detailed interaction with physical participants
     
