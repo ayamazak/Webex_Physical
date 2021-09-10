@@ -40,7 +40,7 @@ We are proposing Hybrid digital event solution using Cisco Products and API, for
 
     The hospital is the organizer of the Japan Association for Medical Informatics (JAMI) academic conference to be held this fall and is considering holding a hybrid event.
 
-    Before the pandemic, this academic conference earned income from the exhibition fees and advertising expenses of a company’s physical exhibition booth, but due to the lack of expectation of a large  number of physical visitors, more companies will cancel the exhibition and a new source of income will be needed.
+    Before the pandemic, this academic conference earned income from the exhibition fees and advertising expenses of a company’s physical exhibition booth, but due to the lack of expectation of a large number of physical visitors, more companies will cancel the exhibition and a new source of income will be needed.
 
     Hospitals also want a hybrid event that removes the barriers between physical and online participants and allows online participants to attend physical company’s exhibition booth and seminars without hesitation. Hospitals expect that removing this barrier will revitalize the entire event, attract more visitors, increase the number of companies exhibiting at the event, and increase revenue.
 
