@@ -66,4 +66,4 @@ We are proposing Hybrid digital event solution using Cisco Products and API, for
 
         Link to log in to a dedicated Webex meeting for more detailed interaction with physical participants
     
-    ![Webex Physical](static/images/solution.png)
+![Webex Physical](static/images/solution.png)
