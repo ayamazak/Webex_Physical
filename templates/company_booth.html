@@ -1,0 +1,20 @@
+
+<html>
+
+<head>
+<title>Company Booth Page</title>
+<meta charset="UTF-8">
+</head>
+
+<body>
+<p>
+<img swidth="90" height="120" src="./static/images/logo.png" alt="logo" align="middle">
+<font size="6" color="#0000ff">Welcome to Medical Company Booth !!</font>
+</p>
+<h2> Streaming Video at Physical Booth</h2>
+<img src="{{ url_for('video_feed') }}" width='1440' height='810'>
+<h3><a href="https://cisco.webex.com/cisco-jp/j.php?MTID=m2b51e7d8adbdbff9dd2d72c8a21e7786"> Click here to Enter the Booth. {{people}} people are here.</a></h3>
+<h2> If you have any questions, please feel free to contact us from the following! </h2>
+<iframe src="https://app.sli.do/event/pwanzvyo/questions" height="100%" width="100%" frameBorder="0" style="min-height: 560px;" title="Slido"></iframe>
+</body>
+</html>

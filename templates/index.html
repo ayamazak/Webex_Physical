@@ -1,0 +1,72 @@
+<html>
+
+    <head>
+    <title>Webex Phisical</title>
+    <meta charset="UTF-8">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jQuery-rwdImageMaps/1.6/jquery.rwdImageMaps.min.js"></script>
+    <script src="static/js/main.js"></script>
+    
+    <style>
+        #preview{
+            position:absolute;
+            border:1px solid #ccc;
+            background:#333;
+            padding:5px;
+            display:none;
+            color:#fff;
+            }
+    </style>
+
+    <script>
+    
+    function changeMapImage(imgPath) {
+      document.getElementById('map').src = imgPath;
+    }
+    
+    function location_click(){
+        var objElement = document.getElementById( 'map' );
+        objElement.src = 'href';
+        return false;
+    }
+    
+    jQuery(document).ready(function(e) {
+        jQuery('img[usemap]').rwdImageMaps();
+    
+        jQuery('img#map').on('click', function() {
+            //alert($(this).attr('href') + ' clicked');
+            //window.location.href = '#';
+            //location_click($(this).attr('href'));
+            //location.assign.getAttribute'$(this).attr("href")'
+            return false;
+        });
+        
+        jQuery('area').on('click', function() {
+            //alert($(this).attr('href') + ' clicked');
+            window.location.href = $(this).attr('href');
+            //location_click($(this).attr('href'));
+            //location.assign.getAttribute'$(this).attr("href")'
+            return false;
+        });
+    });
+    </script>
+    
+    </head>
+    
+    <body>
+
+    <h1>Webex Physical Map</h1>
+
+    <img src="static/images/main.png" usemap="#ImageMap" alt="" style="cursor: default;" /><map name="ImageMap">
+                            <a href="./video_feed" class="preview" title="Medical Company<br>Onsite: {{people}} people<br>Online: {{webex=webex}} people"><area shape="rect" coords="130,754,400,909" href="./company_booth" alt="Medical Company Booth" /></a>
+                            
+    
+    </map>
+    
+    
+    
+    
+    </body>
+    </html>
+    
+    
