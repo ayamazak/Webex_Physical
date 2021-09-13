@@ -118,6 +118,11 @@ def image_to_b64(base64object,new_logo):
     return myimage_b64
 
 if __name__ == '__main__':
+    headers = {
+    'Authorization': 'Basic ' + my_token_xapi,
+    'Content-Type': 'text/xml'
+    }
+    
     p_job_m = ''
 
     while True:
