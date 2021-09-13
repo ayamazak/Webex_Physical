@@ -14,7 +14,7 @@ headers = {
   'Authorization': 'Basic ' + get_from_ini("my_token_xapi"),
   'Content-Type': 'text/xml'
 }
-endpoint_ip = 'get_from_ini(endpoint_ip')
+endpoint_ip = get_from_ini('endpoint_ip')
 
 def get_rtspurl(cam_serial):
     headers = {

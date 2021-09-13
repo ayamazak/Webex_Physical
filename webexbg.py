@@ -51,7 +51,6 @@ if os.path.isfile("./" + configFile):
             my_logofolder = r'{}'.format(my_logofolder[:-1])
         my_token_xapi = get_from_ini("my_token_xapi")
         my_user_image_location = get_from_ini("my_user_image_location")
-        my_local_domain_toignore = get_from_ini("my_local_domain_toignore")
     except Exception as e:
         print(f"\n**ERROR** reading settings file.\n    ERROR: {e} ")
         exit()

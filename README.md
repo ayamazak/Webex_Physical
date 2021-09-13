@@ -38,11 +38,11 @@ We are proposing Hybrid digital event solution using Cisco Products and API, for
 
 * Customer’s challenge
 
-    The hospital is the organizer of the Japan Association for Medical Informatics (JAMI) academic conference to be held this fall and is considering holding a hybrid event.
+    The organizer of the academic conference event is considering holding a hybrid event these days.
 
-    Before the pandemic, this academic conference earned income from the exhibition fees and advertising expenses of a company’s physical exhibition booth, but due to the lack of expectation of a large number of physical visitors, more companies will cancel the exhibition and a new source of income will be needed.
+    Before the pandemic, the academic conference earned income from the exhibition fees and advertising expenses of a company’s physical exhibition booth, but due to the lack of expectation of a large number of physical visitors, more companies will cancel the exhibition and a new source of income will be needed.
 
-    Hospitals also want a hybrid event that removes the barriers between physical and online participants and allows online participants to attend physical company’s exhibition booth and seminars without hesitation. Hospitals expect that removing this barrier will revitalize the entire event, attract more visitors, increase the number of companies exhibiting at the event, and increase revenue.
+    They also want a hybrid event that removes the barriers between physical and online participants and allows online participants to attend physical company’s exhibition booth and seminars without hesitation. They expect that removing this barrier will revitalize the entire event, attract more visitors, increase the number of companies exhibiting at the event, and increase revenue.
 
 * Our Solution
 
@@ -56,14 +56,54 @@ We are proposing Hybrid digital event solution using Cisco Products and API, for
 
     Create a virtual event web page for online participants. The corporate booths and seminar rooms displayed on the web page are linked to the actual booths and seminar rooms. When an online participant hovers over a booth or seminar room on a web page, the following information is displayed so that the physical condition of the booth or seminar room can be grasped while maintaining anonymity.
 
-        Real-time camera streamings of physical booths and seminar rooms (Meraki External RTSP)
+    * Real-time camera streamings of physical booths and seminar rooms (Meraki External RTSP)
 
-        The Number of Physical Participants in Physical Booths and Seminar Rooms (Meraki MV Sense API)
+    * The Number of Physical Participants in Physical Booths and Seminar Rooms (Meraki MV Sense API)
 
-        Online Participant Attributes (Webex xAPI)
+    * Online Participant Attributes (Webex xAPI)
 
-        A link to keep anonymity and feel free to ask questions (Slido)
+    * A link to keep anonymity and feel free to ask questions (Slido)
 
-        Link to log in to a dedicated Webex meeting for more detailed interaction with physical participants
+    * Link to log in to a dedicated Webex meeting for more detailed interaction with physical participants
     
 ![Webex Physical](static/images/solution.png)
+
+## Hardware
+
+Cisco Webex Desk Pro and Meraki MV Cameras are needed.
+
+## Installation
+
+Make sure you have Python3 installed.
+
+```
+$ git clone https://github.com/ayamazak/Webex_Physical.git
+$ cd Webex_Physical
+$ pip install -r requirements.txt
+```
+
+## Usage
+
+* Solution 1
+
+    ```
+    $ python webexbg.py
+    ```
+
+* Solution 2
+
+    * Option 1 - Run with Python3
+
+    ```
+    $ python app.py
+    ```
+
+    * Option 2 - Run via Flask
+
+    ```
+    $ flask run
+    ```
+
+    Open the browser and access the following.
+
+        http://0.0.0.0:5000
