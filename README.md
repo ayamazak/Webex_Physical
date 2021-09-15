@@ -1,3 +1,5 @@
+[![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/ayamazak/Webex_Physical)
+
 # Cisco Webex Physical
 
 We are proposing Hybrid digital event solution using Cisco Products and API, for post COVID-19 new normal.
@@ -107,3 +109,5 @@ $ pip install -r requirements.txt
     Open the browser and access the following.
 
         http://0.0.0.0:5000
+
+![Webex Physical](static/images/solution2-ss.png)
